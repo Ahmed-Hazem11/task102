@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+</head>
+
+<body>
+    <h1>Adding -- Multiplying -- and dividing 3 values</h1>
+    <hr>
+    <script>
+        let arr = [];
+        for (let i = 0; i < 3; i++) {
+            let n = prompt("Please enter the value");
+            let number = Number(n);
+            arr[i] = number;
+        }
+        console.log(arr);
+        let sum = arr[0] + arr[1] + arr[2];
+        let mul = arr[0] * arr[1] * arr[2];
+        let div = arr[0] / arr[1] / arr[2];
+
+        document.write("<h2> <span style='color:red;'>Sum of the 3 values </span> " + arr[0] + " + " + arr[1] + " + " + arr[2] + " = " + sum + "</h2>");
+        document.write("<h2><span style='color:red;'>Multiplication of the 3 values</span> " + arr[0] + " * " + arr[1] + " * " + arr[2] + " = " + mul + "</h2>");
+
+        document.write("<h2><span style='color:red;'>Division of the 3 values</span> " + arr[0] + " / " + arr[1] + " / " + arr[2] + " = " + div + "</h2>");
+
+
+
+    </script>
+
+</body>
+
+</html>
